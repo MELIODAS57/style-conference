@@ -1,0 +1,200 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    /**
+===================================================================
+GRID
+====================================================================
+**/
+    
+    *,
+    *:before,
+    *after {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 960px;
+        /* background-color: rgb(196, 206, 206); */
+    }
+    
+    h1,
+    h2,
+    h4,
+    h5,
+    p {
+        margin-bottom: 22px;
+    }
+    /*
+==============================
+buttons
+==============================
+*/
+    
+    .btn {
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .btn-alt {
+        border: 1px solid #290ccb;
+        padding: 10px 30px;
+    }
+    
+    .hero {
+        padding: 0px 0px 66px 0px;
+        background-color: rgb(196, 206, 206);
+    }
+    /*
+    ========================================
+    Clearfix
+    ========================================
+    */
+    
+    .group:before,
+    .group:after {
+        content: "";
+        display: table;
+    }
+    
+    .group:after {
+        clear: both;
+    }
+    
+    .group {
+        clear: both;
+        zoom: 1;
+    }
+    /*
+    ===========================
+    Primary header
+    ===========================
+    */
+    
+    .logo {
+        float: left;
+    }
+    
+    .logo {
+        border-top: 4px solid #648880;
+        padding: 40px 0 22px 0;
+        float: left;
+    }
+    /*
+    ========================================
+    Primary footer
+    ========================================
+    */
+    
+    .primary-footer small {
+        float: left;
+    }
+    
+    .primary-footer {
+        padding-bottom: 44px;
+        padding-top: 44px;
+    }
+    
+    .col-1-3 {
+        width: 30%;
+    }
+    
+    .col-2-3 {
+        width: 64%;
+    }
+    
+    .col-1-3,
+    .col-2-3 {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .grid,
+    .col-1-3,
+    .col-2-3 {
+        padding: 15px;
+        padding: 15px;
+    }
+    
+    .container,
+    .grid {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    /* 
+    ===========================================
+    Custom Styles
+    ===========================================
+     */
+     body{
+        color: #888;
+        font: 300 16px/22px "Open Sans","Helvertica neue",Helvetica,Arial,sans-serif;
+     }
+
+     h1,h2,h3,h4{
+        color: #648880;
+     }
+
+     h1{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 44px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    strong{
+        font-weight: 400;
+    }
+    cite,em{
+        font-style: italic;
+    }
+
+    /* 
+    ======================================
+    Links
+    ======================================
+     */
+     a:hover{
+        color: #a9b2b9;
+     }
+     a{
+        color: #648880;
+     }
+
+     .logo{
+        border-top: 4px solid #648880;
+        float: left;
+        font-size: 48px;
+        line-height: 44px;
+        padding: 40px 0 22px 0;
+     }
+     .tagline{
+        margin: 66px 0 22px 0;
+     }
+
+
+
